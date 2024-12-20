@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: content-box;
+    color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    padding: 10px 178pc 10px 10px ;
+    background: linear-gradient(285deg ,#779eb5 , #1974d0 ,#020014 );
+    min-height: 100vh ;
+
+}
+.app{ 
+    width: 100%;
+    max-width: 100px;
+    background: #000000;
+    margin: 120px 200px 150px 120px;
+    padding: 15px 300px 150px 20px ;
+    border-radius: 30px;
+    
+    
+}
+.app h2{
+    width: 100%;
+    color:#42a9e5;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px ;
+    margin: 0px 67px 15px 106px;
+}
+.row {
+    display: flex
+;
+    width: 360px;
+    align-items: center;
+    padding-left: 5px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    justify-content: space-between;
+    border-radius: 30px;
+
+}
+
+
+button{
+    
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 178px;
+    background: rgb(181, 156, 156);
+    display: flex
+;
+    color: #020014;
+    margin-left: 5px;
+}
+input{ flex: 1;
+border: none;
+outline: none;
+background: pink;
+padding: 10px;
+border-radius: 20px; ;
+color: #020014;
+}
+ul li {
+    list-style-type: none;
+    font-size: 17px ;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: -moz-box;
+}
+ul li ::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;}
+    .checked {
+        text-decoration: line-through;
+        color: #333131;
+    }
+    
+    ul li span {
+        position: absolute;
+        right: -276px;
+        top: 5px;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+        color: #555;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    
+    ul li span:hover {
+        background: #edeef0;
+        cursor: pointer;
+    }
+    
